@@ -1,0 +1,352 @@
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.clearfix:after {
+  clear: both;
+}
+.hide-text {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+.input-block-level {
+  display: block;
+  width: 100%;
+  min-height: ;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font: normal 12pt Arial, Helvetica, sans-serif;
+  background: url(/images/bg.gif) repeat;
+  height: 4000px;
+}
+a img {
+  border: none;
+}
+.container {
+  width: 1084px;
+  position: relative;
+}
+#navigation {
+  position: fixed;
+  margin-left: 30px;
+  width: 230px;
+  height: 530px;
+  background: url(/images/nav_bg.png) no-repeat transparent;
+  padding: 15px 10px 10px;
+  text-align: center;
+  z-index: 999;
+}
+#navigation ul {
+  padding: 0;
+  margin: 0;
+  margin-top: 25px;
+}
+#navigation ul li {
+  list-style: none;
+  text-align: center;
+}
+#navigation ul li:hover a,
+#navigation ul li.current a {
+  color: #000;
+}
+#navigation ul li a {
+  color: #fff;
+  display: block;
+  width: 220px;
+  padding: 5px;
+  text-decoration: none;
+}
+header {
+  text-align: center;
+  background: url(/images/header_bg.jpg);
+  height: 182px;
+}
+header #logo {
+  float: left;
+  width: 800px;
+  text-align: right;
+  display: block;
+  padding-top: 20px;
+}
+header #social-logos {
+  float: left;
+  width: 230px;
+  margin-left: 50px;
+  text-align: center;
+}
+header #social-logos h4 {
+  margin-top: -10px;
+  font-size: 15px;
+}
+#cycle {
+  height: 629px;
+  overflow: hidden;
+}
+#offers {
+  height: 63px;
+  display: block;
+  background: #952f2d;
+}
+#offers .left {
+  display: block;
+  float: left;
+  width: 250px;
+  height: 63px;
+}
+#offers .middle {
+  display: block;
+  float: left;
+  width: 543px;
+  overflow: hidden;
+  font-size: 16px;
+  padding: 20px 0;
+}
+#offers .right {
+  float: left;
+  width: 284px;
+  display: block;
+  position: relative;
+}
+#offers .right img {
+  position: absolute;
+  z-index: 999;
+  top: -106px;
+  left: 0;
+}
+.page {
+  width: 100%;
+  display: block;
+}
+.page .content {
+  float: right;
+  width: 550px;
+  display: block;
+  margin-right: 80px;
+  text-align: center;
+  padding-top: 50px;
+}
+.page .content h1 {
+  font-size: 18px;
+  font-weight: normal;
+}
+.page#menu {
+  background: url(/images/plain_brick_bg.jpg) repeat transparent;
+  min-height: 566px;
+  width: 100%;
+}
+.page#menu2 {
+  background: #952f2d;
+  border: 4px solid #ca7423;
+  border-left: none;
+  border-right: none;
+  min-height: none;
+}
+.page#menu2 .content {
+  width: 100%;
+  float: none;
+  margin: 0;
+  padding: 0;
+}
+.page#menu2 .content .left {
+  float: left;
+  width: 220px;
+}
+.page#menu2 .content .right {
+  float: left;
+  width: 840px;
+  padding-top: 28px;
+}
+.page#menu2 .content .right .banners .banner {
+  float: left;
+  width: 187px;
+  margin-right: 22px;
+}
+.page#menu2 .content .right .banners .banner:hover {
+  opacity: 0.7;
+}
+.page#menu2 .content .right .banners .banner a {
+  color: #fff;
+}
+.page#menu2 .content .right .banners .banner a:hover {
+  text-decoration: none;
+}
+.page#gallery {
+  background: url(/images/stripped_bg.jpg) repeat transparent;
+}
+.page#gallery .content {
+  width: 745px;
+  padding-right: 40px;
+  padding-bottom: 25px;
+  margin-right: 0;
+}
+.page#gallery .content .item {
+  margin-right: 20px;
+  width: 223px;
+  float: left;
+  margin-bottom: 25px;
+  border: 2px solid #fff;
+  padding: 0;
+}
+.page#gallery .content .item img {
+  display: block;
+}
+.page#gallery .content .item.last {
+  margin-right: 0;
+}
+.page#about {
+  background: url(/images/plain_brick_bg.jpg) repeat transparent;
+  min-height: 566px;
+  width: 100%;
+  position: relative;
+  padding-bottom: 250px;
+}
+.page#about .picture {
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+}
+.page#outside-catering {
+  background: url(/images/plain_brick_bg.jpg) repeat transparent;
+  min-height: 566px;
+  width: 100%;
+  position: relative;
+  padding-bottom: 250px;
+}
+.page#outside-catering .picture {
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+}
+.page#location {
+  background: url(/images/stripped_bg.jpg) repeat transparent;
+  padding-bottom: 50px;
+}
+.page#location .content {
+  width: 675px;
+  margin-right: 60px;
+  text-align: left;
+  padding-top: 25px;
+}
+.page#location #postcode {
+  float: left;
+  margin-left: 31px;
+  width: 300px;
+  text-align: left;
+}
+.page#location #postcode fieldset {
+  background: #722c28;
+  padding: 10px;
+}
+.page#location #postcode #directions_text {
+  background: #fff;
+}
+.page#contact {
+  background: url(/images/stripped_bg.jpg) repeat transparent;
+}
+.page#contact .content {
+  width: 675px;
+  margin-right: 60px;
+  text-align: left;
+}
+.page#contact .content .form-left,
+.page#contact .content .form-right {
+  float: left;
+  width: 240px;
+  text-align: left;
+}
+.page#contact .content .form-left .field,
+.page#contact .content .form-right .field {
+  padding: 6px;
+  color: #999;
+  border-radius: 0px;
+  text-transform: uppercase;
+  border: none;
+  margin-bottom: 15px;
+  -webkit-box-shadow: 0 6px 4px -4px black;
+  -moz-box-shadow: 0 6px 4px -4px black;
+  box-shadow: 0 6px 4px -4px black;
+}
+.page#contact .content .form-right {
+  width: 400px;
+  margin-left: 31px;
+  position: relative;
+}
+.page#contact .content .form-right .field {
+  width: 290px;
+}
+.page#contact .content .form-right .submit_button {
+  display: block;
+  position: absolute;
+  bottom: 6px;
+  right: 0px;
+}
+.brick_sep {
+  display: block;
+  width: 100%;
+  background: url(/images/plain_brick_bg.jpg) repeat 0 -170px transparent;
+  height: 50px;
+}
+footer {
+  background: url(/images/footer.png) no-repeat 0 -6px transparent;
+  background-size: 100% 100%;
+  min-height: 210px;
+  padding: 20px;
+  display: block;
+}
+footer .best {
+  float: right;
+  width: 220px;
+}
+footer .address {
+  float: left;
+  width: 650px;
+  color: #fff;
+  text-align: left;
+  font: normal 14px Arial, Helvetica, sans-serif;
+  line-height: 20px;
+}
+footer .address a {
+  color: #fff;
+  text-decoration: none;
+}
+footer .address a:hover {
+  text-decoration: underline;
+}
+footer img.award {
+  float: right;
+}
+
+/*
+     FILE ARCHIVED ON 11:57:00 Feb 01, 2019 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 08:41:23 Nov 25, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.505
+  exclusion.robots: 0.026
+  exclusion.robots.policy: 0.016
+  esindex: 0.01
+  cdx.remote: 19.95
+  LoadShardBlock: 170.82 (3)
+  PetaboxLoader3.datanode: 117.441 (5)
+  PetaboxLoader3.resolve: 159.19 (3)
+  load_resource: 163.809 (2)
+*/
