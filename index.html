@@ -57,6 +57,53 @@
         });
 
     </script>
+    <style>
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            margin: 0px;
+            padding: 1rem;
+            cursor: pointer;
+            left: 197px;
+            top: -20px;
+            background: #94312e;
+        }
+        .jw-is-header-affix .header-wrap__inner .dropdown-content{
+            background-color: #202020;
+            border-radius: 3px;
+        }
+        .jw-menu-clone .jw-menu .jw-menu-item>.jw-menu-link{
+            width: 100%;
+        }
+        .dropdown > a {
+            display: inline-block;
+            text-decoration: none;
+            position: relative;
+        }
+        .dropdown-content li {
+            display: block;
+            text-align: center;
+        }
+        .dropdown-content li:hover{
+            background-color: white;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        .dropdown-content a {
+            display: block;
+            padding: 10px 0;
+            text-decoration: none;
+            color: white;
+        }
+        .dropdown-content a:hover {
+            color: #ddaa44;
+        }
+    </style>
 </head>
 <body>
 <script type="text/javascript" src="/js/libs/jquery.cycle2.js"></script>
@@ -76,7 +123,17 @@
                 <li><a href="#gallery">Gallery</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#contact">Contact</a></li>
-                <li><a href="#contact">Blogs</a></li>
+                <li class="jw-menu-item dropdown">
+                    <a class="jw-menu-link"
+                       href="#"
+                       data-page-link-id="18665343">
+                        <span class="">Places</span>
+                    </a>
+                    <ul class="dropdown-content">
+                        <li><a>HN</a></li>
+                        <li><a>TP. HCM</a></li>
+                    </ul>
+                </li>
                 <li class="last"><a href="#outside-catering">Outdoor Catering</a></li>
             </ul>
             </li>
